@@ -30,7 +30,7 @@ export function useFetch(url) {
   //   useEffect(() => {
   //     fetch(url)
   //       .then((response) => response.json())
-  //       .then((json) => setError("Error"))
+  //       .then((json) => setData(json))
   //       .catch((error) => setError(error))
   //       .finally(() => setLoading(false));
   //   }, []);
